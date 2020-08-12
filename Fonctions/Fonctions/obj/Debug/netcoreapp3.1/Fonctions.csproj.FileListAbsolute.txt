@@ -1,0 +1,13 @@
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\bin\Debug\netcoreapp3.1\Fonctions.exe
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\bin\Debug\netcoreapp3.1\Fonctions.deps.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\bin\Debug\netcoreapp3.1\Fonctions.runtimeconfig.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\bin\Debug\netcoreapp3.1\Fonctions.runtimeconfig.dev.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\bin\Debug\netcoreapp3.1\Fonctions.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\bin\Debug\netcoreapp3.1\Fonctions.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\obj\Debug\netcoreapp3.1\Fonctions.csprojAssemblyReference.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\obj\Debug\netcoreapp3.1\Fonctions.AssemblyInfoInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\obj\Debug\netcoreapp3.1\Fonctions.AssemblyInfo.cs
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\obj\Debug\netcoreapp3.1\Fonctions.csproj.CoreCompileInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\obj\Debug\netcoreapp3.1\Fonctions.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\obj\Debug\netcoreapp3.1\Fonctions.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Fonctions\Fonctions\obj\Debug\netcoreapp3.1\Fonctions.genruntimeconfig.cache
