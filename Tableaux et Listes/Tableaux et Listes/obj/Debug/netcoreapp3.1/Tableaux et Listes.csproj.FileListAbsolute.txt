@@ -1,0 +1,13 @@
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\bin\Debug\netcoreapp3.1\Tableaux et Listes.exe
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\bin\Debug\netcoreapp3.1\Tableaux et Listes.deps.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\bin\Debug\netcoreapp3.1\Tableaux et Listes.runtimeconfig.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\bin\Debug\netcoreapp3.1\Tableaux et Listes.runtimeconfig.dev.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\bin\Debug\netcoreapp3.1\Tableaux et Listes.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\bin\Debug\netcoreapp3.1\Tableaux et Listes.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\obj\Debug\netcoreapp3.1\Tableaux et Listes.csprojAssemblyReference.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\obj\Debug\netcoreapp3.1\Tableaux et Listes.AssemblyInfoInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\obj\Debug\netcoreapp3.1\Tableaux et Listes.AssemblyInfo.cs
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\obj\Debug\netcoreapp3.1\Tableaux et Listes.csproj.CoreCompileInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\obj\Debug\netcoreapp3.1\Tableaux et Listes.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\obj\Debug\netcoreapp3.1\Tableaux et Listes.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Tableaux et Listes\Tableaux et Listes\obj\Debug\netcoreapp3.1\Tableaux et Listes.genruntimeconfig.cache
