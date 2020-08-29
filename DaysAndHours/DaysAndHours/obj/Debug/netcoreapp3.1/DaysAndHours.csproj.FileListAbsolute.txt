@@ -1,0 +1,13 @@
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\bin\Debug\netcoreapp3.1\DaysAndHours.exe
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\bin\Debug\netcoreapp3.1\DaysAndHours.deps.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\bin\Debug\netcoreapp3.1\DaysAndHours.runtimeconfig.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\bin\Debug\netcoreapp3.1\DaysAndHours.runtimeconfig.dev.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\bin\Debug\netcoreapp3.1\DaysAndHours.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\bin\Debug\netcoreapp3.1\DaysAndHours.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\obj\Debug\netcoreapp3.1\DaysAndHours.csprojAssemblyReference.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\obj\Debug\netcoreapp3.1\DaysAndHours.AssemblyInfoInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\obj\Debug\netcoreapp3.1\DaysAndHours.AssemblyInfo.cs
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\obj\Debug\netcoreapp3.1\DaysAndHours.csproj.CoreCompileInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\obj\Debug\netcoreapp3.1\DaysAndHours.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\obj\Debug\netcoreapp3.1\DaysAndHours.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\Openclassroom\DaysAndHours\DaysAndHours\obj\Debug\netcoreapp3.1\DaysAndHours.genruntimeconfig.cache
