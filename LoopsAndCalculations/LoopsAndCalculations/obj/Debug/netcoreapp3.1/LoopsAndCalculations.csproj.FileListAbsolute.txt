@@ -1,0 +1,13 @@
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\bin\Debug\netcoreapp3.1\LoopsAndCalculations.exe
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\bin\Debug\netcoreapp3.1\LoopsAndCalculations.deps.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\bin\Debug\netcoreapp3.1\LoopsAndCalculations.runtimeconfig.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\bin\Debug\netcoreapp3.1\LoopsAndCalculations.runtimeconfig.dev.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\bin\Debug\netcoreapp3.1\LoopsAndCalculations.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\bin\Debug\netcoreapp3.1\LoopsAndCalculations.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\obj\Debug\netcoreapp3.1\LoopsAndCalculations.csprojAssemblyReference.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\obj\Debug\netcoreapp3.1\LoopsAndCalculations.AssemblyInfoInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\obj\Debug\netcoreapp3.1\LoopsAndCalculations.AssemblyInfo.cs
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\obj\Debug\netcoreapp3.1\LoopsAndCalculations.csproj.CoreCompileInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\obj\Debug\netcoreapp3.1\LoopsAndCalculations.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\obj\Debug\netcoreapp3.1\LoopsAndCalculations.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\LoopsAndCalculations\LoopsAndCalculations\obj\Debug\netcoreapp3.1\LoopsAndCalculations.genruntimeconfig.cache
