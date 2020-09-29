@@ -1,0 +1,13 @@
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\bin\Debug\netcoreapp3.1\MoreOrLess.exe
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\bin\Debug\netcoreapp3.1\MoreOrLess.deps.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\bin\Debug\netcoreapp3.1\MoreOrLess.runtimeconfig.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\bin\Debug\netcoreapp3.1\MoreOrLess.runtimeconfig.dev.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\bin\Debug\netcoreapp3.1\MoreOrLess.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\bin\Debug\netcoreapp3.1\MoreOrLess.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\obj\Debug\netcoreapp3.1\MoreOrLess.csprojAssemblyReference.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\obj\Debug\netcoreapp3.1\MoreOrLess.AssemblyInfoInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\obj\Debug\netcoreapp3.1\MoreOrLess.AssemblyInfo.cs
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\obj\Debug\netcoreapp3.1\MoreOrLess.csproj.CoreCompileInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\obj\Debug\netcoreapp3.1\MoreOrLess.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\obj\Debug\netcoreapp3.1\MoreOrLess.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\MoreOrLess\MoreOrLess\obj\Debug\netcoreapp3.1\MoreOrLess.genruntimeconfig.cache
