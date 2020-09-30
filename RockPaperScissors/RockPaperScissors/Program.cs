@@ -19,20 +19,26 @@ namespace RockPaperScissors
 
             while (i <= 3)
             {
-                int random = new Random().Next(0, 3);
+                int random = new Random().Next(1, 4);
                 string saisie = Console.ReadLine();
 
                 if (Int32.TryParse(saisie, out number) && number <= 3 && number > 0)
                 {
                     Console.WriteLine($"Manche n° { i }.");
-                    if (number == 1 && random == 2 || number == 2 && random == 1 || number == 3 && random == 2)
+                    if (number == 1 && random == 3 || number == 2 && random == 1 || number == 3 && random == 2)
                     {
-                        Console.WriteLine($"Vous avez choisi { array[number - 1] } contre { array[random] } - Gagné");
+                        Console.WriteLine($"Vous avez choisi { array[number - 1] } contre { array[random - 1] } - Gagné");
                         playerScore++;
+                    }
+                    else if (number == random)
+                    {
+                        Console.WriteLine($"Vous avez choisi { array[number - 1] } contre { array[random - 1] } - Égalité");
+                        playerScore++;
+                        computerScore++;
                     }
                     else
                     {
-                        Console.WriteLine($"Vous avez choisi { array[number - 1] } contre { array[random] } - Perdu");
+                        Console.WriteLine($"Vous avez choisi { array[number - 1] } contre { array[random - 1] } - Perdu");
                         computerScore++;
                     }
                     i++;
@@ -47,11 +53,15 @@ namespace RockPaperScissors
 
             if (playerScore > computerScore)
             {
-                Console.WriteLine($"Bravo, vous avez gagné - { playerScore } (vous) contre { computerScore } (ordinateur).");
+                Console.WriteLine($"Bravo, vous avez gagné : { playerScore } (vous) contre { computerScore } (ordinateur).");
+            }
+            else if (playerScore == computerScore)
+            {
+                Console.WriteLine($"Bravo, vous avez gagné à égalité : { playerScore } (vous) contre { computerScore } (ordinateur).");
             }
             else
             {
-                Console.WriteLine($"Dommage, vous avez perdu - { playerScore } (vous) contre { computerScore } (ordinateur).");
+                Console.WriteLine($"Dommage, vous avez perdu : { playerScore } (vous) contre { computerScore } (ordinateur).");
             }
         }
     }
