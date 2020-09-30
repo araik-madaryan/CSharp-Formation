@@ -7,7 +7,7 @@ namespace RockPaperScissors
         static void Main(string[] args)
         {
             Console.WriteLine("PIERRE | FEUILLE | CISEAUX");
-            Console.WriteLine("Ce jeu va se dérouler en 3 manches. Vous devrez saisir lors de chacune d'entre elle, un chiffre compris entre 1 et 3.");
+            Console.WriteLine("Ce jeu va se dérouler en 3 manches. Vous devrez saisir lors de chacune d'entre elles, un chiffre compris entre 1 et 3.");
             Console.WriteLine("Pierre (1) - Feuille (2) - Ciseaux (3)");
             Console.WriteLine(Environment.NewLine);
 
