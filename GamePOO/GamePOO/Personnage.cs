@@ -6,13 +6,18 @@ namespace GamePOO
 {
     public class Personnage
     {
-        public De de = new De();
-
         public int PointsDeVie { get; private set; }
 
         public Personnage(int pointsDeVie) => PointsDeVie = pointsDeVie;
 
+        public int LanceLeDe() => De.LanceLeDe();
+
+        public int LanceLeDe(int valeur) => De.LanceLeDe(valeur);
+
         public void Attaque(MonstreFacile monstre) => monstre.SubitDegats();
+
+        public void Attaque(Boss boss) => boss.SubitDegats(LanceLeDe(26));
+
 
         public int SubitDegats(int degats)
         {
@@ -25,7 +30,7 @@ namespace GamePOO
 
         private bool Bouclier()
         {
-            int deBouclier = de.LanceLeDe();
+            int deBouclier = LanceLeDe();
             if (deBouclier <= 2)
             {
                 Console.WriteLine("Votre bouclier vous a protégé.");

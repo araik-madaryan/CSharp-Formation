@@ -6,13 +6,13 @@ namespace GamePOO
 {
     public class MonstreFacile
     {
-        public De de = new De();
-
         private const int Degats = 10;
 
         public bool EstVivant { get; private set; }
 
         public MonstreFacile() => EstVivant = true;
+
+        public int LanceLeDe() => De.LanceLeDe();
 
         public virtual void Attaque(Personnage personnage) => personnage.SubitDegats(Degats);
 

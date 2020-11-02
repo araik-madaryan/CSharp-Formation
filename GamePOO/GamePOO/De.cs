@@ -4,10 +4,12 @@ using System.Text;
 
 namespace GamePOO
 {
-    public class De
+    public static class De
     {
-        private Random random = new Random();
+        private static Random random = new Random();
 
-        public int LanceLeDe() => random.Next(1, 7);
+        public static int LanceLeDe() => random.Next(1, 7);
+
+        public static int LanceLeDe(int valeur) => random.Next(1, valeur);
     }
 }

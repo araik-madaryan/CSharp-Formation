@@ -15,10 +15,12 @@ namespace GamePOO
 
         public int AttaqueMagique()
         {
-            int deMonstreDifficle = de.LanceLeDe();
+            int deMonstreDifficle = LanceLeDe();
             if (deMonstreDifficle != 6)
             {
                 Console.WriteLine("Le monstre coriace lance une attaque magique !");
+                Console.WriteLine(deMonstreDifficle * attaqueMagique);
+
                 return deMonstreDifficle * attaqueMagique;
             }
             return 0;
