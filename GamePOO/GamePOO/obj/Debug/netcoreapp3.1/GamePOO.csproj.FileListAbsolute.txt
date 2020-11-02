@@ -1,0 +1,13 @@
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\bin\Debug\netcoreapp3.1\GamePOO.exe
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\bin\Debug\netcoreapp3.1\GamePOO.deps.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\bin\Debug\netcoreapp3.1\GamePOO.runtimeconfig.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\bin\Debug\netcoreapp3.1\GamePOO.runtimeconfig.dev.json
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\bin\Debug\netcoreapp3.1\GamePOO.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\bin\Debug\netcoreapp3.1\GamePOO.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\obj\Debug\netcoreapp3.1\GamePOO.csprojAssemblyReference.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\obj\Debug\netcoreapp3.1\GamePOO.AssemblyInfoInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\obj\Debug\netcoreapp3.1\GamePOO.AssemblyInfo.cs
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\obj\Debug\netcoreapp3.1\GamePOO.csproj.CoreCompileInputs.cache
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\obj\Debug\netcoreapp3.1\GamePOO.dll
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\obj\Debug\netcoreapp3.1\GamePOO.pdb
+C:\Users\Araik\Desktop\Workspace\C#\CSharp-Formation\GamePOO\GamePOO\obj\Debug\netcoreapp3.1\GamePOO.genruntimeconfig.cache
