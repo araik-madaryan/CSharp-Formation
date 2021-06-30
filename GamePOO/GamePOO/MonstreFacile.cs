@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace GamePOO
 {
     public class MonstreFacile
     {
-        private const int Degats = 10;
+        private const int degats = 10;
 
         public bool EstVivant { get; private set; }
 
         public MonstreFacile() => EstVivant = true;
 
-        public int LanceLeDe() => De.LanceLeDe();
+        public virtual void Attaque(Joueur joueur) => joueur.SubitDegats(degats);
 
-        public virtual void Attaque(Personnage personnage) => personnage.SubitDegats(Degats);
-
-        public void SubitDegats() => EstVivant = false;
+        public bool SubitDegats() => !EstVivant;
     }
 }

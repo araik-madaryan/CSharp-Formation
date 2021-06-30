@@ -35,104 +35,77 @@ namespace GamePOO
 
         static void PremierJeu()
         {
-            Personnage personnage = new Personnage(150);
-
+            Joueur joueur = new Joueur();
             int monstresFacilesTues = 0;
             int monstresDifficilesTues = 0;
-            int total;
 
-            Console.WriteLine("Presser une touche pour lancer le jeu de dés.");
-
-            while (personnage.PointsDeVie > 0)
+            while (joueur.EstVivant)
             {
+                MonstreFacile monstre = MonstreAleatoire();
+                int joueurLanceLeDe = De.LanceLeDe();
+                int monstreLanceLeDe = De.LanceLeDe();
+
+                Console.WriteLine("Presser une touche pour lancer le jeu de dés.");
                 Console.ReadKey(true);
                 Console.WriteLine(Environment.NewLine);
+                Console.WriteLine($"Joueur : { joueurLanceLeDe } | Monstre : { monstreLanceLeDe} ");
 
-                MonstreFacile monstre = MonstreAleatoire();
-                int dePersonnage = personnage.LanceLeDe();
-                int deMonstre = monstre.LanceLeDe();
-
-                Console.WriteLine($"Points de vie : { personnage.PointsDeVie }");
-                Console.WriteLine($"Joueur : { dePersonnage } | Monstre : { deMonstre} ");
-
-                if (dePersonnage >= deMonstre)
+                if (joueurLanceLeDe >= monstreLanceLeDe)
                 {
+                    joueur.Attaque(monstre);
                     if (monstre is MonstreDifficile)
-                    {
-                        Console.WriteLine("Un monstre plus corriace apparaît !");
-                        monstresDifficilesTues++;
-                    }
-                    else
                     {
                         monstresFacilesTues++;
                     }
-                    personnage.Attaque(monstre);
-                    Console.WriteLine("Vous avez tué le monstre !");
+                    else
+                    {
+                        monstresDifficilesTues++;
+                    }
                 }
                 else
                 {
-                    if (monstre is MonstreDifficile)
-                    {
-                        Console.WriteLine("Le monstre coriace vous attaque !");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Le monstre vous attaque !");
-                    }
-                    monstre.Attaque(personnage);
+                    monstre.Attaque(joueur);
+                    Console.WriteLine($"Il vous reste { joueur.PointsDeVie } points de vie.");
                 }
-
             }
-            total = monstresFacilesTues + (monstresDifficilesTues * 2);
-            Console.WriteLine("Vous êtes mort.");
-            Console.WriteLine($"Bravo, vous avez tué { monstresFacilesTues } monstres faciles et { monstresDifficilesTues } monstres difficiles. Vous avez { total } points.");
-        }
-
-        private static MonstreFacile MonstreAleatoire()
-        {
-            MonstreFacile monstreFacile = new MonstreFacile();
-            MonstreDifficile monstreDifficile = new MonstreDifficile();
-
-            Random random = new Random();
-            int randonMonster = random.Next(0, 2);
-
-            if (randonMonster == 0)
-            {
-                return monstreFacile;
-            }
-            return monstreDifficile;
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine($"Vous avez tué { monstresFacilesTues } monstres faciles et { monstresDifficilesTues } monstres difficiles.");
+            Console.WriteLine($"Votre score est de { monstresFacilesTues + (monstresDifficilesTues * 2) }.");
         }
 
         static void DeuxiemeJeu()
         {
-            Personnage personnage = new Personnage(150);
-            Boss boss = new Boss(250);
+            Joueur joueur = new Joueur();
+            BossDeFin boss = new BossDeFin();
 
-            Console.WriteLine("Presser une touche pour lancer le jeu de dés.");
-
-            while (personnage.PointsDeVie > 0 && boss.EstVivant)
+            while (joueur.EstVivant && boss.EstVivant)
             {
+                Console.WriteLine("Presser une touche pour lancer le jeu de dés.");
                 Console.ReadKey(true);
                 Console.WriteLine(Environment.NewLine);
 
-                personnage.Attaque(boss);
-                Console.WriteLine("Vous infligez des dégâts.");
-
-                if (boss.EstVivant)
-                {
-                    Console.WriteLine("Le boss vous inflige des dégâts.");
-                    boss.Attaque(personnage);
-                }
-                Console.WriteLine($"Joueur : { personnage.PointsDeVie } pv. | Boss : { boss.PointsDeVie } pv.");
+                joueur.AttaqueBoss(boss);
+                Console.WriteLine($"Il reste { boss.PointsDeVie } points de vie au boss.");
+                boss.Attaque(joueur);
+                Console.WriteLine($"Il vous reste { joueur.PointsDeVie } points de vie.");
             }
-            if (personnage.PointsDeVie > 0)
+            if (joueur.EstVivant)
             {
-                Console.WriteLine("Bravo, vous avez vaincu le boss !");
+                Console.WriteLine("Bravo, vous avez tué le boss !");
             }
             else
             {
-                Console.WriteLine("Perdu, le boss vous a broyé avec ses muscles.");
+                Console.WriteLine("Dommage, vous avez perdu.");
             }
+        }
+
+        static MonstreFacile MonstreAleatoire()
+        {
+            if (De.LanceLeDe(3) == 1)
+            {
+                return new MonstreFacile();
+            }
+            return new MonstreDifficile();
         }
     }
 }
